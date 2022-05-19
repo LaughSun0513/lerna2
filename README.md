@@ -46,8 +46,8 @@ lerna create add --registry http://localhost:4873/
 lerna create create --registry http://localhost:4873/
 ```
 #### 流程
-1.lerna2 内引入依赖
-2.npm link
-3.去加载命令，如init
-4.写基础的命令内容，lerna2/cli内写基础架子
-5.写单个命令的逻辑 例如@lerna2/init
+> 1.lerna2 内引入依赖
+> 2.npm link
+> 3.去加载命令，如init
+> 4.写基础的命令内容，lerna2/cli内写基础架子
+> 5.写单个命令的逻辑 例如@lerna2/init
