@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "jest": "^28.0.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}

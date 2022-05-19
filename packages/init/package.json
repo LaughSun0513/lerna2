@@ -1,0 +1,25 @@
+{
+  "name": "@lerna2/init",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "main": "index.js",
+  "author": "@FE-YUX <190895906@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "scripts": {},
+  "dependencies": {
+    "init-package-json": "^3.0.2",
+    "npmlog": "^6.0.2",
+    "write-json-file": "^4.3.0"
+  }
+}

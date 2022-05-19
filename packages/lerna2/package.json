@@ -1,0 +1,30 @@
+{
+  "name": "lerna2",
+  "version": "0.0.0",
+  "description": "lerna2",
+  "keywords": [
+    "lerna2"
+  ],
+  "author": "@FE-YUX <190895906@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "test": "__tests__"
+  },
+  "files": [],
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "lerna2": "./cli.js"
+  },
+  "dependencies": {
+    "@lerna2/add": "0.0.0",
+    "@lerna2/cli": "0.0.0",
+    "@lerna2/create": "0.0.0",
+    "@lerna2/init": "0.0.0"
+  }
+}
